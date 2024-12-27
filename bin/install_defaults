@@ -28,6 +28,7 @@ defaults write NSGlobalDomain NSQuitAlwaysKeepsWindows -bool false
 
 printf "%s\n" "System - Disable auto-correct."
 defaults write NSGlobalDomain NSAutomaticSpellingCorrectionEnabled -bool false
+defaults write NSGlobalDomain NSAutomaticTextCompletionEnabled -bool false
 
 printf "%s\n" "System - Disable smart quotes (not useful when writing code)."
 defaults write NSGlobalDomain NSAutomaticQuoteSubstitutionEnabled -bool false
@@ -62,6 +63,9 @@ defaults write NSGlobalDomain KeyRepeat -int 0
 
 printf "%s\n" "Keyboard - Disable press-and-hold for keys in favor of key repeat."
 defaults write NSGlobalDomain ApplePressAndHoldEnabled -bool false
+
+printf "%s\n" "Keyboard - Disable continuous spell checking."
+defaults write -g NSAllowContinuousSpellChecking -bool false
 
 printf "%s\n" "Trackpad - Map bottom right corner to right-click."
 defaults write com.apple.driver.AppleBluetoothMultitouch.trackpad TrackpadCornerSecondaryClick -int 2

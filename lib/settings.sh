@@ -12,9 +12,6 @@ IFS=$'\n\t'
 export HOMEBREW_CURL_RETRIES=3
 
 # Applications
-export APPMAP_APP_NAME="appmap"
-export APPMAP_APP_URL="https://github.com/getappmap/appmap-js/releases/download/%40appland%2Fappmap-v3.154.0/appmap-macos-arm64"
-
 export DOCKER_APP_NAME="Docker.app"
 export DOCKER_APP_URL="https://desktop.docker.com/mac/stable/arm64/Docker.dmg"
 export DOCKER_VOLUME_NAME="Docker"
@@ -22,25 +19,14 @@ export DOCKER_VOLUME_NAME="Docker"
 export ICE_APP_NAME="Ice.app"
 export ICE_APP_URL="https://github.com/jordanbaird/Ice/releases/download/0.9.0/Ice.zip"
 
-export MONEYWELL_APP_NAME="MoneyWell.app"
-export MONEYWELL_APP_URL="https://moneywell.app/downloads/sparkle/MoneyWell-3.1.2.zip"
-
 export MOOM_APP_NAME="Moom.app"
 export MOOM_VOLUME_NAME="Moom"
 export MOOM_APP_URL="https://manytricks.com/download/moom"
 
-export PGENV_APP_URL="https://github.com/theory/pgenv"
-export PGENV_APP_PATH="$HOME/.pgenv"
-
-export SONOS_APP_NAME="Sonos S1 Controller.app"
+export SONOS_APP_NAME="Sonos.app"
 export SONOS_VOLUME_NAME="Sonos"
-export SONOS_APP_URL="https://www.sonos.com/redir/controller_software_mac"
+export SONOS_APP_URL="https://www.sonos.com/redir/controller_software_mac2"
 
-export TANA_APP_NAME="Tana.app"
-export TANA_APP_URL="https://desktop-update.tana.inc/download/darwin"
-
-export TUPLE_APP_NAME="Tuple.app"
-export TUPLE_APP_URL="https://tuple.app/download/mac"
 
 # Application Extensions
 export VIM_EXTENSION_ROOT="$HOME/.vim/bundle"
